@@ -1,0 +1,160 @@
+body {
+    background: #333745;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    width: 220px;
+    height: 370px;
+    border-radius: 1.5rem;
+    padding: 30px;
+    box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.card .price, .card2 .price, .card3 .price {
+    font-size: 7.5rem;
+    position: relative;
+    z-index: 4;
+}
+
+.card .price .dollar, .card2 .price .dollar, .card3 .price .dollar {
+    font-size: 1.8rem;
+}
+
+.card .type, .card2 .type, .card3 .type {
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+}
+
+.card .plan, .card2 .plan, .card3 .plan {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.card .plan::before, .card .plan::after, .card2 .plan::before, .card2 .plan::after, .card3 .plan::before, .card3 .plan::after {
+    content: "";
+    width: 35px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 40%;
+}
+
+.card .plan::after, .card2 .plan::after, .card3 .plan::after {
+    right: 15%;
+}
+
+.card .plan::before, .card2 .plan::before, .card3 .plan::before {
+    left: 15%;
+}
+
+.details {
+    list-style: none;
+    padding: 0;
+}
+
+.card .details li, .card2 .details li, .card3 .details li {
+    margin: 15px 0px;
+}
+
+.card .details span, .card2 .details span, .card3 .details span {
+    text-transform: uppercase;
+}
+
+.card .details li, .card2 .details li, .card3 .details li {
+    text-transform: none;
+}
+
+.card:nth-child(1) {
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.card .Sub, .card3 .Sub {
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    position: relative;
+    left: 126px;
+    height: 24px;
+    padding: 7px;
+    width: 110px;
+    top: -14px;
+}
+
+.card2 {
+    width: 250px;
+    height: 400px;
+    border-radius: 1.5rem;
+    padding: 30px;
+    box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.card2:nth-child(2) {
+    background: linear-gradient(to right, orange, #ff3333, #ff3366);
+}
+
+.Sub2 {
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    position: relative;
+    left: 156px;
+    height: 24px;
+    padding: 7px;
+    width: 110px;
+    top: 16px;
+}
+
+.card3 {
+    width: 220px;
+    height: 370px;
+    border-radius: 1.5rem;
+    padding: 30px;
+    box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.card3:nth-child(3) {
+    background: linear-gradient(to right, #99ff66, #33cc33, #33cc99);
+}
+
+.card .price2 {
+    font-size: 8.5rem;
+    opacity: 0.1;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    left: 325px;
+    text-shadow: none;
+}
+
+.card2 .price2 {
+    text-shadow: none;
+    font-size: 8.5rem;
+    opacity: 0.1;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    left: 650px;
+}
+
+.card3 .price2 {
+    text-shadow: none;
+    font-size: 8.5rem;
+    opacity: 0.1;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    left: 950px;
+}
