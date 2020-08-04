@@ -9,6 +9,7 @@ body {
 }
 
 .card {
+    position: relative;
     width: 220px;
     height: 370px;
     border-radius: 1.5rem;
@@ -35,6 +36,7 @@ body {
 .card .plan, .card2 .plan, .card3 .plan {
     font-size: 1.3rem;
     position: relative;
+    top: -170px;
 }
 
 .card .plan::before, .card .plan::after, .card2 .plan::before, .card2 .plan::after, .card3 .plan::before, .card3 .plan::after {
@@ -55,8 +57,10 @@ body {
 }
 
 .details {
+    position: relative;
     list-style: none;
     padding: 0;
+    top: -160px;
 }
 
 .card .details li, .card2 .details li, .card3 .details li {
@@ -86,7 +90,7 @@ body {
     height: 24px;
     padding: 7px;
     width: 110px;
-    top: -14px;
+    top: -171px;
 }
 
 .card2 {
@@ -113,7 +117,7 @@ body {
     height: 24px;
     padding: 7px;
     width: 110px;
-    top: 16px;
+    top: -141px;
 }
 
 .card3 {
@@ -132,10 +136,10 @@ body {
 .card .price2 {
     font-size: 8.5rem;
     opacity: 0.1;
-    position: absolute;
-    top: 60px;
+    position: relative;
+    top: -190px;
     z-index: 1;
-    left: 325px;
+    left: -30px;
     text-shadow: none;
 }
 
@@ -143,18 +147,18 @@ body {
     text-shadow: none;
     font-size: 8.5rem;
     opacity: 0.1;
-    position: absolute;
-    top: 60px;
+    position: relative;
+    top: -190px;
     z-index: 1;
-    left: 650px;
+    left: 5px;
 }
 
 .card3 .price2 {
     text-shadow: none;
     font-size: 8.5rem;
     opacity: 0.1;
-    position: absolute;
-    top: 60px;
+    position: relative;
+    top: -190px;
     z-index: 1;
-    left: 950px;
+    left: -10px;
 }
